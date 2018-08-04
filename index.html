@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bootstrap 4 demo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style.css" type="text/css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="./main.js"></script>
+
+	<style type="text/css">
+	@media only screen and (max-width: 475px) {
+		.about .text-justify {
+			display: none;
+		}
+		.about img {
+			margin-top: 1rem;
+		}
+	}
+</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top bg-primary">
+		<a class="navbar-brand" href="#">Home</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarSupportedContent"
+		aria-controls="navbarSupportedContent"
+		aria-expanded="false"
+		aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-4">
+
+			<li class="nav-item">
+				<a class="nav-link" data-value="about" href="#">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-value="portfolio" href="#">Portfolio</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-value="team" href="#">Team</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-value="blog" href="#">Blog</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" data-value="contact" href="#">Contact</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<!-- Header Section -->
+<header class="header">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="description text-center">
+			<h3>
+				Hello, Welcome To My official website </h3>
+				<p>
+					是哪辆马车，载你而去，奔向远方<br>
+					你去而不返，是哪辆马车
+				</p>
+				<button class="btn btn-outline-secondary">See more</button>
+		</div>
+
+	</div>
+</header>
+
+<!-- About Me -->
+<div class="about text-center" id="about">
+<h1>About Me</h1>
+<div class="row">
+	<div class="col-lg-4 col-md-4 col-sm-12">
+		<img src="./images/IMG_5629.jpg" class="img-fluid">
+		<span class="text-justify">J.Web Developer</span>
+	</div>
+	<div class="col-lg-8 col-md-8 col-sm-12 desc">
+		<h3>海上&nbsp;&nbsp; <span style="font-size:0.6rem;">海子</span></h3>
+		<p>
+			所有的日子都是海上的日子<br>
+			穷苦的渔夫<br>
+			肉疙瘩像一卷笨拙的绳索<br>
+			在波浪上展开<br>
+			想抓住远方<br>
+			闪闪发亮的东西<br>
+			其实那只是太阳的假笑<br>
+			他抓住的只是几块会腐烂的木板<br>
+			房屋、船和棺材<br>
+			<br>
+			成群游来鱼的脊背<br>
+			无始无终<br>
+			只有关于青春的说法<br>
+			一触即断
+		</p>
+	</div>
+</div>
+</div>
+
+<!-- portfolio -->
+<div class="portfolio" id="portfolio">
+	<h1 class="text-center">Portfolio</h1>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="./images/IMG_0115.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="./images/IMG_0183.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="./images/IMG_0348.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="./images/IMG_0831.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="./images/IMG_0887.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="./images/IMG_1377 2.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="./images/IMG_1683 2.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="./images/IMG_2588.jpg" class="img-fluid">
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12">
+				<img src="./images/IMG_2951.jpg" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Posts section -->
+<div class="blog" id="blog">
+	<div class="container">
+		<h1 class="text-center">Blog</h1>
+		<div class="row">
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="./images/IMG_2998.jpg" class="img-fluid">
+					</div>
+
+					<div class="card-body">
+						<h4 class="card-title">风之国度</h4>
+						<p class="card-text">
+							心情焚风
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="./images/IMG_3920.jpg" class="img-fluid">
+					</div>
+
+					<div class="card-body">
+						<h4 class="card-title">流淌你心的河</h4>
+						<p class="card-text">
+							High and dry
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-lg-4 col-sm-12">
+				<div class="card">
+					<div class="card-img">
+						<img src="./images/IMG_5992.jpg" class="img-fluid">
+					</div>
+
+					<div class="card-body">
+						<h4 class="card-title">Unintended</h4>
+						<p class="card-text">
+							百年孤独
+						</p>
+					</div>
+					<div class="card-footer">
+						<a href="" class="card-link">Read more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Team section -->
+<div class="team" id="team">
+	<div class="container">
+		<h1 class="text-center">Our Team</h1>
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="./images/IMG_2278.jpg" class="img-fluid" alt="team">
+				<div class="des">
+					Naruto
+				</div>
+				<span class="text-muted">Manager</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="./images/IMG_2278.jpg" class="img-fluid" alt="team">
+				<div class="des">
+					Dude
+				</div>
+				<span class="text-muted">Stockbroker</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="./images/IMG_2278.jpg" class="img-fluid" alt="team">
+				<div class="des">
+					Usopp
+				</div>
+				<span class="text-muted">Sniper</span>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 item">
+				<img src="./images/IMG_2278.jpg" class="img-fluid" alt="team">
+				<div class="des">
+					Another dude
+				</div>
+				<span class="text-muted">Frontend Developer</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Contact-form -->
+<div class="contact-form" id="contact">
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h1>Get in Touch</h1>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 right">
+					<div class="form-group">
+						<input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+					</div>
+					<div class="form-group">
+						<textarea class="form-control form-control-lg">
+						</textarea>
+					</div>
+					<input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
