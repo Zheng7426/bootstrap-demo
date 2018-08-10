@@ -2,7 +2,9 @@
 <html>
 <head>
 	<title>bootstrap 4 demo</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalaple=no, viewport-fit=cover">
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="./style.css" type="text/css">
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
@@ -15,6 +17,16 @@
 		}
 		.about img {
 			margin-top: 1rem;
+		}
+		.description p{
+			display: none;
+		}
+		.portfolio {
+			width: 100%;
+		}
+		.portfolio img {
+			margin-left: 0;
+			margin-right: 0;
 		}
 	}
 </style>
@@ -53,8 +65,8 @@
 	</div>
 </nav>
 <!-- Header Section -->
-<header class="header">
-	<div class="overlay"></div>
+<header class="header img-fluid">
+	<div class="overlay img-fluid"></div>
 	<div class="container">
 		<div class="description text-center">
 			<h3>
